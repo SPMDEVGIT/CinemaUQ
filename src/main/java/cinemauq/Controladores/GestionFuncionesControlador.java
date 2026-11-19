@@ -1,12 +1,12 @@
-package co.edu.uniquindio.cinemauq.controladores;
+package cinemauq.Controladores;
 
-import co.edu.uniquindio.cinemauq.excepciones.CinemaException;
-import co.edu.uniquindio.cinemauq.modelo.Funcion;
-import co.edu.uniquindio.cinemauq.modelo.Pelicula;
-import co.edu.uniquindio.cinemauq.modelo.Sala;
-import co.edu.uniquindio.cinemauq.util.Alertas;
-import co.edu.uniquindio.cinemauq.util.Contexto;
-import co.edu.uniquindio.cinemauq.util.Formato;
+import cinemauq.excepciones.CinemaException;
+import cinemauq.modelo.Funcion;
+import cinemauq.modelo.Pelicula;
+import cinemauq.modelo.Sala;
+import cinemauq.util.Alertas;
+import cinemauq.util.Contexto;
+import cinemauq.util.Formato;
 import java.time.LocalTime;
 import java.time.format.DateTimeParseException;
 import javafx.beans.property.SimpleStringProperty;

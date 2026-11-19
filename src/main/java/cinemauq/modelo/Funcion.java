@@ -1,9 +1,9 @@
-package co.edu.uniquindio.cinemauq.modelo;
+package cinemauq.modelo;
 
-import co.edu.uniquindio.cinemauq.enumeraciones.EstadoFuncion;
-import co.edu.uniquindio.cinemauq.excepciones.AsientoNoEncontradoException;
-import co.edu.uniquindio.cinemauq.excepciones.DatoInvalidoException;
-import co.edu.uniquindio.cinemauq.excepciones.FuncionNoDisponibleException;
+import cinemauq.enumeraciones.EstadoFuncion;
+import cinemauq.excepciones.AsientoNoEncontradoException;
+import cinemauq.excepciones.DatoInvalidoException;
+import cinemauq.excepciones.FuncionNoDisponibleException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;

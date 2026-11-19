@@ -1,6 +1,6 @@
-package co.edu.uniquindio.cinemauq.modelo;
+package cinemauq.modelo;
 
-import co.edu.uniquindio.cinemauq.excepciones.DatoInvalidoException;
+import cinemauq.excepciones.DatoInvalidoException;
 
 /**
  * Persona con identificación y nombre. Es la base de usuarios y clientes.

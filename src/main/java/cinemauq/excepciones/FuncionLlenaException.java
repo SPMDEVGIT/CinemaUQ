@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.excepciones;
+package cinemauq.excepciones;
 
 /**
  * La función no tiene asientos disponibles.

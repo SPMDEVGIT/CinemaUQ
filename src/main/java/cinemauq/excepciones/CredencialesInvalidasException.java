@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.excepciones;
+package cinemauq.excepciones;
 
 /**
  * Usuario o contraseña incorrectos.

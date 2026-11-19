@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.enumeraciones;
+package cinemauq.enumeraciones;
 
 /**
  * Estado de una función.

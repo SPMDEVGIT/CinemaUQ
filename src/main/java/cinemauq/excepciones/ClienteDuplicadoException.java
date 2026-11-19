@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.excepciones;
+package cinemauq.excepciones;
 
 /**
  * Ya existe un cliente con esa identificación.

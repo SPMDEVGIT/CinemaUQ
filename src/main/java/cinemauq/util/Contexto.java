@@ -1,7 +1,7 @@
-package co.edu.uniquindio.cinemauq.util;
+package cinemauq.util;
 
-import co.edu.uniquindio.cinemauq.modelo.Cinema;
-import co.edu.uniquindio.cinemauq.modelo.Usuario;
+import cinemauq.modelo.Cinema;
+import cinemauq.modelo.Usuario;
 
 /**
  * Datos compartidos por toda la interfaz: la única instancia de {@link Cinema}

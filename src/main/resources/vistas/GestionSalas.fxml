@@ -11,7 +11,7 @@
 
 <VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
       styleClass="contenido" spacing="12"
-      fx:controller="co.edu.uniquindio.cinemauq.controladores.GestionSalasControlador">
+      fx:controller="cinemauq.Controladores.GestionSalasControlador">
     <Label text="Gestión de salas" styleClass="titulo-seccion"/>
     <Label text="Selecciona una fila de la tabla para modificarla. El código no se puede cambiar."
            styleClass="ayuda"/>

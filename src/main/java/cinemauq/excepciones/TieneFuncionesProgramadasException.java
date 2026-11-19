@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.excepciones;
+package cinemauq.excepciones;
 
 /**
  * La película o sala tiene funciones programadas y no puede modificarse o deshabilitarse.

@@ -1,7 +1,7 @@
-package co.edu.uniquindio.cinemauq.modelo;
+package cinemauq.modelo;
 
-import co.edu.uniquindio.cinemauq.enumeraciones.Rol;
-import co.edu.uniquindio.cinemauq.excepciones.DatoInvalidoException;
+import cinemauq.enumeraciones.Rol;
+import cinemauq.excepciones.DatoInvalidoException;
 
 /**
  * Usuario del sistema con credenciales y rol.

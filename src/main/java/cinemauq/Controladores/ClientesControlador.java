@@ -1,10 +1,10 @@
-package co.edu.uniquindio.cinemauq.controladores;
+package cinemauq.Controladores;
 
-import co.edu.uniquindio.cinemauq.enumeraciones.TipoCliente;
-import co.edu.uniquindio.cinemauq.excepciones.CinemaException;
-import co.edu.uniquindio.cinemauq.modelo.Cliente;
-import co.edu.uniquindio.cinemauq.util.Alertas;
-import co.edu.uniquindio.cinemauq.util.Contexto;
+import cinemauq.enumeraciones.TipoCliente;
+import cinemauq.excepciones.CinemaException;
+import cinemauq.modelo.Cliente;
+import cinemauq.util.Alertas;
+import cinemauq.util.Contexto;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;

@@ -7,7 +7,7 @@
 
 <VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
       styleClass="contenido" spacing="12"
-      fx:controller="co.edu.uniquindio.cinemauq.controladores.FuncionesControlador">
+      fx:controller="cinemauq.Controladores.FuncionesControlador">
     <Label text="Funciones programadas" styleClass="titulo-seccion"/>
     <TableView fx:id="tabla" VBox.vgrow="ALWAYS">
         <columnResizePolicy>

@@ -52,7 +52,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>co.edu.uniquindio.cinemauq/co.edu.uniquindio.cinemauq.CinemaUQApp</mainClass>
+                    <mainClass>cinemauq/cinemauq.CinemaUQApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>

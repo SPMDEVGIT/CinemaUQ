@@ -1,10 +1,10 @@
-package co.edu.uniquindio.cinemauq;
+package cinemauq;
 
-import co.edu.uniquindio.cinemauq.excepciones.CinemaException;
-import co.edu.uniquindio.cinemauq.modelo.Cinema;
-import co.edu.uniquindio.cinemauq.util.Alertas;
-import co.edu.uniquindio.cinemauq.util.Contexto;
-import co.edu.uniquindio.cinemauq.util.DatosPrueba;
+import cinemauq.excepciones.CinemaException;
+import cinemauq.modelo.Cinema;
+import cinemauq.util.Alertas;
+import cinemauq.util.Contexto;
+import cinemauq.util.DatosPrueba;
 import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -58,7 +58,7 @@ public class CinemaUQApp extends Application {
     }
 
     private static void mostrar(Stage escenario, String vista) throws IOException {
-        FXMLLoader cargador = new FXMLLoader(CinemaUQApp.class.getResource(vista));
+        FXMLLoader cargador = new FXMLLoader(CinemaUQApp.class.getResource("/" + vista));
         Parent raiz = cargador.load();
         double ancho = ANCHO_MINIMO;
         double alto = ALTO_MINIMO;

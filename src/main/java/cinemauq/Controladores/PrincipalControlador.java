@@ -1,10 +1,10 @@
-package co.edu.uniquindio.cinemauq.controladores;
+package cinemauq.Controladores;
 
-import co.edu.uniquindio.cinemauq.CinemaUQApp;
-import co.edu.uniquindio.cinemauq.enumeraciones.Rol;
-import co.edu.uniquindio.cinemauq.modelo.Usuario;
-import co.edu.uniquindio.cinemauq.util.Alertas;
-import co.edu.uniquindio.cinemauq.util.Contexto;
+import cinemauq.CinemaUQApp;
+import cinemauq.enumeraciones.Rol;
+import cinemauq.modelo.Usuario;
+import cinemauq.util.Alertas;
+import cinemauq.util.Contexto;
 import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -73,7 +73,7 @@ public class PrincipalControlador {
     /** Carga el FXML de una pestaña y hace que recargue sus datos al seleccionarse. */
     private void agregarPestana(String titulo, String vista) {
         try {
-            FXMLLoader cargador = new FXMLLoader(CinemaUQApp.class.getResource("vistas/" + vista));
+            FXMLLoader cargador = new FXMLLoader(CinemaUQApp.class.getResource("/vistas/" + vista));
             Node contenido = cargador.load();
             Tab pestana = new Tab(titulo, contenido);
             pestana.setClosable(false);

@@ -1,4 +1,4 @@
-package co.edu.uniquindio.cinemauq.enumeraciones;
+package cinemauq.enumeraciones;
 
 /**
  * Tipo de cliente, que determina la tarifa aplicada.

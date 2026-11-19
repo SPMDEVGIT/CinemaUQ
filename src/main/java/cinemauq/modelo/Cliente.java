@@ -1,7 +1,7 @@
-package co.edu.uniquindio.cinemauq.modelo;
+package cinemauq.modelo;
 
-import co.edu.uniquindio.cinemauq.enumeraciones.TipoCliente;
-import co.edu.uniquindio.cinemauq.excepciones.DatoInvalidoException;
+import cinemauq.enumeraciones.TipoCliente;
+import cinemauq.excepciones.DatoInvalidoException;
 
 /**
  * Cliente que compra entradas. Su tipo define la tarifa que paga.
